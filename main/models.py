@@ -4,7 +4,7 @@ USER = settings.AUTH_USER_MODEL
 
 class StatusChoices(models.TextChoices):
     TODO = 'todo', 'todo'
-    IN_PROGRESS = 'inprogress', 'inprogress'
+    IN_PROGRESS = 'in_progress', 'in_progress'
     COMPLETED = 'completed', 'completed'
 
 class Plan(models.Model):
